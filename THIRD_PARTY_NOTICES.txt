@@ -1,0 +1,18 @@
+Rights and third-party materials — code/data release v0.2.0
+
+This source-available research archive does not grant a new general reuse
+license for author-owned code, generated data, technical notes or figures.
+The author has authorized public GitHub archiving. CITATION.cff is citation
+metadata, not a license. A later license choice requires a separate version.
+
+Historical FakeFez configuration/property files originate from
+Qiskit/qiskit-ibm-runtime, commit
+521961de60c5ebf905bef8b8fd43ba1f4d028dcb. Their existing Apache-2.0 license is
+preserved in analysis/timing/inputs/UPSTREAM_LICENSE.txt and the original
+frozen reproduction tree. Source commit and calibration dates are distinct.
+
+NumPy, SciPy, mpmath, Qiskit, Aer and plotting dependencies are not vendored
+environments and retain their own licenses. This code/data release contains
+no manuscript, Springer Nature class/style files, or full journal articles.
+Scientific figures and technical derivation/review notes are included as
+research artifacts; no new reuse permission is asserted by their inclusion.

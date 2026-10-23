@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "scope": "Release-path reproduction checks; no network, account, credentials or QPU. Native17-point scan is archived and not rerun in this release audit.",
+  "python_executable": "/Users/daiweining/anaconda3/bin/python3",
+  "python_version": "3.11.4 (main, Jul  5 2023, 08:54:11) [Clang 14.0.6 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "checks": [
+    {
+      "name": "core",
+      "command": [
+        "python3",
+        "run_reproduction.py",
+        "--group",
+        "core"
+      ],
+      "returncode": 0,
+      "seconds": 6.427665082970634
+    },
+    {
+      "name": "small_certificate",
+      "command": [
+        "python3",
+        "analysis/small_register/run_pipeline.py",
+        "--certificate-only"
+      ],
+      "returncode": 0,
+      "seconds": 1.47740733390674
+    },
+    {
+      "name": "native_check",
+      "command": [
+        "python3",
+        "analysis/timing/check_native_channels.py"
+      ],
+      "returncode": 0,
+      "seconds": 5.169300958048552
+    },
+    {
+      "name": "timing_independent",
+      "command": [
+        "python3",
+        "analysis/timing_independent_check.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.4895743748638779
+    },
+    {
+      "name": "small_independent",
+      "command": [
+        "python3",
+        "analysis/small_register/independent_check.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.5002560839056969
+    },
+    {
+      "name": "small_reviewer_numeric",
+      "command": [
+        "python3",
+        "analysis/small_register/reviewer_numeric_checks.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.6456669580657035
+    },
+    {
+      "name": "timing_independent_python39",
+      "command": [
+        "/usr/bin/python3",
+        "analysis/timing_independent_check.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.5671511660329998,
+      "reason": "After the portability-only bit_count replacement, verify the native legacy environment."
+    }
+  ],
+  "frozen_handoff_byte_identical": {
+    "passed": true,
+    "files": 259
+  },
+  "timing_component_manifest": {
+    "passed": true,
+    "files": 41,
+    "issues": []
+  },
+  "public_exclusions_verified": [
+    "main/SI manuscript PDF/TeX",
+    "history/user manuscript package",
+    "sn-jnl.cls/sn-nature.bst",
+    "full manuscript generators",
+    "credentials"
+  ]
+}

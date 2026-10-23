@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this research software and its accompanying data, please cite this work using these metadata."
+type: software
+title: "Learning hidden noise structure for quantum storage: code and data"
+authors:
+  - family-names: "Dai"
+    given-names: "Weining"
+    affiliation: "Chengdu University of Information Technology, Chengdu, China; Stony Brook University, Stony Brook, NY, USA"
+abstract: >-
+  Research code and generated data accompanying Learning hidden noise structure
+  for quantum storage. The materials support algebraic checks, a finite-instance
+  randomized-consensus certificate, specified noisy deployment simulations and
+  figure generation. Conditional deployment simulations and historical learner
+  records are distinguished from full-workflow guarantees. No processor
+  experiment is reported. The native-duration model underperforms raw storage. Independent human proof
+  review is pending. No new reuse license or DOI is asserted.
+keywords:
+  - "quantum information"
+  - "quantum memory"
+  - "channel learning"
+  - "quantum error correction"
+  - "reproducible research"
+repository-code: "https://github.com/weiningdai7-code/quantum-storage-learning"
+version: "0.2.0"
+date-released: "2026-10-24"
+url: "https://github.com/weiningdai7-code/quantum-storage-learning/releases/tag/v0.2.0"

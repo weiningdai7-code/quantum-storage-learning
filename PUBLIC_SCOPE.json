@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "scope": "Code, generated data, exact certificates, scientific figures and technical audit notes only. No current or historical full manuscript, manuscript sources or generators.",
+  "excluded_manuscript_generators": [
+    "reproduction/work/npj_supplement_visual_qa.txt",
+    "reproduction/work/reviewer_main_visual_qa.txt",
+    "reproduction/work/npj_main_visual_qa.txt",
+    "reproduction/work/reviewer_supplement_visual_qa.txt",
+    "reproduction/work/build_documents.py",
+    "reproduction/work/reviewer_main_compile.txt",
+    "reproduction/work/build_npj_latex.py",
+    "reproduction/work/document_word_counts.json",
+    "reproduction/work/reviewer_supplement_compile.txt",
+    "reproduction/work/package_npj.py",
+    "reproduction/work/npj_build_summary.json",
+    "reproduction/work/reviewer_revision.py",
+    "reproduction/work/npj_delivery_checks.json",
+    "reproduction/work/reviewer_clean_main_compile.txt",
+    "reproduction/work/reviewer_clean_si_compile.txt",
+    "reproduction/work/build_source_bundle.py"
+  ],
+  "handoff": "Frozen reproduction/work/handoff copied without deleting or modifying any file; legacy provenance and research-handoff text are historical data, not current execution instructions.",
+  "numeric_reference_input": "analysis/reference_inputs/methodological_advances_results.json; retained solely for a replay comparison, without the user manuscript/history package."
+}
